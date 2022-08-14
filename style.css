@@ -96,12 +96,12 @@ input[type="radio"].rate + label {
 }
 
 input[type="radio"].rate:checked + label {
-    background-color: hsl(216, 12%, 54%);
+    background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
 }
 
-input[type="radio"].rate:active + label{
-    background-color: hsl(25, 97%, 53%);
+input[type="radio"].rate:hover + label{
+    background-color: hsl(216, 12%, 54%);
     color: hsl(0, 0%, 100%);
 }
 
@@ -130,12 +130,9 @@ input[type="radio"].rate:hover + label{
     font-weight: 400;
 }
 
-.submit:active{
+.submit:hover{
     background-color: hsl(0, 0%, 100%);
     color: hsl(25, 97%, 53%);
-}
-
-.submit:hover{
     cursor: pointer;
 }
 
